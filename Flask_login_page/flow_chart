@@ -1,0 +1,22 @@
+Start
+  |
+  v
+User accesses the app ----> Redirect to Login (/login)
+  |
+  v
+[Login Page]
+  |                |
+  v                v
+Enter credentials   Register instead (/register)
+  |                |
+  v                v
+Validate credentials Save new user
+  |                |
+  v                v
+Correct?            Redirect to Login
+  |              
+  v
+Yes ----------------> [Dashboard]
+  |                      |
+  v                      v
+Save session        Logout and redirect to Login
